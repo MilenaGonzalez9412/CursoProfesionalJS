@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platzi Media Player</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <header>
+        <h1>Platzi Media Player</h1>
+        <p>An extensible media player.</p>
+    </header>
+    <main class="container">
+        <video class="movie">
+            <source src="./assets/Big _Buck_Bunny.mp4"/>
+        </video>
+        <button>Play Pause</button>
+    </main>
+
+    <!-- Cuando colocamos tipo module, este limita el scope al html que lo está usando, entonces no 
+        podríamos usar las variables en window, ya que no pertenecen al scope global
+     -->
+    <script type="module" src="/index.js"></script>
+</body>
+</html>

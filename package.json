@@ -1,0 +1,16 @@
+{
+  "name": "curso_profesional_js",
+  "version": "1.0.0",
+  "description": "Proyecto Profesional JS -  Platzi",
+  "keywords": [
+    "platzi"
+  ],
+  "author": "Milena Gonzalez <samy.9412@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server"
+  },
+  "devDependecies": {
+    "live-server": "^1.2.1"
+  }
+}
